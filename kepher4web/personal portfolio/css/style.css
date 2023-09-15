@@ -1,0 +1,94 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color:blue;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:20px;
+}
+nav li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+nav a{
+    color:white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background-color: black;
+    transition: .5s ;
+}
+blockquote{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    flex: column;
+    justify-content: center;
+    text-align:center;
+    padding: 10px 0;
+}
+cite{
+    text-align: center; 
+}
+.content-container{
+    position: relative;
+    height: 100vh;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* .banner-card{
+    float:right;
+} */
+.banner-text{
+    position: relative;
+    top:25%;
+    color:white;
+    padding: 50px;
+}
+.banner-text h2 p {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: absolute;
+}
+.buttons{
+    position: absolute;
+    padding: 1rem 2rem;
+    color: #fff;
+    bottom: 5rem;
+    left: 2rem;
+}
+.buttons button{
+    background: lightblue;
+    color: #fff;
+    padding: 1rem 2rem;
+    color: black;
+    border-radius: 1rem;
+}
